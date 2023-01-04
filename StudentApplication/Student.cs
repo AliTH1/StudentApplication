@@ -14,14 +14,14 @@ namespace StudentApplication
         private string schoolName;
 
         public Student(int _studentNo, string _studentName, string _studentSurname,
-            int _exam1, int _exam2, string _schoolName)
+            int _exam1, int _exam2, int _final, string _schoolName)
         {
             studentNo = _studentNo;
             studentName = _studentName;
             studentSurname = _studentSurname;
             exam1 = _exam1;
             exam2 = _exam2;
-            final = _exam1 + _exam2;
+            final = _final;
             schoolName = _schoolName;
         }
 
@@ -31,7 +31,7 @@ namespace StudentApplication
             Console.WriteLine("\nŞagirdin nömrəsi: " + studentNo);
             Console.WriteLine("Adı: " + studentName + " " + "\nSoyadı: " + studentSurname);
             Console.WriteLine("\n\nBirinci imtahan balı: " + exam1 + " " + "\nİkinci imtahan balı: " + exam2
-                + "\nÜmumi bal: " + final);
+                + "\nYekun bal: " + final);
         }
 
         public void averageStudent()

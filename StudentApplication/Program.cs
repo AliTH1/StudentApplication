@@ -12,7 +12,7 @@ namespace StudentApplication
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            Student student1 = new Student(202, "Rauf", "Mirəliyev", 50, 150, "Hazırlıq məktəbi - 403");
+            Student student1 = new Student(202, "Rauf", "Mirəliyev", 50, 150, 240, "Hazırlıq məktəbi - 403");
 
             Console.WriteLine("Şağirdlə bağlı hansı əməliyyatı yerinə yetirmək istəyirsiz?");
             Console.WriteLine("1 - Şağird haqqında məlumat" + "\n2 - Şağirdin ortalama qiyməti"
